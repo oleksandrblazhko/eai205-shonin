@@ -1,2 +1,3 @@
 ### Деталізація матеріальних потреб
-![image](https://user-images.githubusercontent.com/91195065/189260030-cd9432fc-feae-4c10-9b4d-a94b1bbcb294.png)
+file:///home/artemius/Downloads/Shonin_map.png![image](https://user-images.githubusercontent.com/91195065/189324861-32e82f85-e1e9-4e74-b065-38b3bb117103.png)
+

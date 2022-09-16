@@ -1,2 +1,2 @@
 ### Діаграма прецедентів програмного продукту
-![lab2](https://user-images.githubusercontent.com/91195065/190532522-1801feab-49a0-4b6d-acfe-d104b054a3f0.jpg)
+![lab2 (1)](https://user-images.githubusercontent.com/91195065/190637723-d02a41e6-4baa-4362-97a3-895237e30fec.jpg)

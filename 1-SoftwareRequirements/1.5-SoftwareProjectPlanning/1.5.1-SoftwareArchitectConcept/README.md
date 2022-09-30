@@ -1,2 +1,3 @@
 ### Концептуальний опис архітектури програмногопродукту
-![image](https://user-images.githubusercontent.com/91195065/193176552-f6c379ed-2eb1-4ca5-bc77-450473e3b128.png)
+![image](https://user-images.githubusercontent.com/91195065/193177285-9970e0bb-e74d-4c0d-8989-306085d77aa4.png)
+

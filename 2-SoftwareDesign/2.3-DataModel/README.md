@@ -1,2 +1,2 @@
 ### Схема моделі даних
-![image](https://user-images.githubusercontent.com/91195065/194442370-c2d39bd7-62f3-47d3-84a2-9fd4e5fdb45f.png)
+![image](https://user-images.githubusercontent.com/91195065/194442928-03d702a4-3a9d-43fb-8c4e-0d7126995af4.png)

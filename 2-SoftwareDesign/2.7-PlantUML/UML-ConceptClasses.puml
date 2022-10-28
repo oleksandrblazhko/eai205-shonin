@@ -1,0 +1,14 @@
+@startuml
+title Classes Diagram
+
+Class User
+Class Developer
+Class Adding
+Class Final_product
+
+User <|-- Developer
+User"1" -up-> "*"Adding : form
+Developer"1" -up-> "*"Adding : processes
+Adding"*" --o "*"Final_product : contains
+
+@enduml

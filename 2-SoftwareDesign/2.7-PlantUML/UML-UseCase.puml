@@ -1,0 +1,33 @@
+@startuml
+title Usecase for Information system
+left to right direction
+
+actor Music_author
+actor Developer
+actor User
+
+rectangle Software{
+  
+  User -- (Create own music)
+  User -- (Provide information)
+  User -- (Leave comments)
+  User -- (Information analysis)
+
+ Developer -- (Add music)
+ Developer -- (Drawing up a contract)
+ Developer -- (Update of the app)
+
+ Developer <-- (Provide information)
+
+ Music_author -- (Drawing up a contract)
+
+ (Information analysis) ..> (Authorization) : <<include>>
+ (Leave comments) ..> (Authorization) : <<include>>
+ (Provide information) ..> (Updating temperature information) : <<include>>
+ (Provide information) ..> (Add music) : <<include>>
+ (Updating temperature information) ..> (Authorization) : <<include>>
+ (Drawing up a contract) ..> (Add music) : <<include>>
+ (Create own music) .> (Authorization) : <<include>>
+}
+
+@enduml

@@ -1,0 +1,68 @@
+@startuml
+title Relation Schema
+hide circle
+entity "User" as us {
+  (PK)User_id
+  --
+  Full_Name
+  Nickname
+  Phone
+  Photo
+}
+
+entity "Developer" as dev {
+  (PK)Developer_id
+  --
+  position
+  Date_of_creating
+  Salary
+  (FK)User_id
+}
+
+entity "Adding" as add {
+  (PK)Music_id
+  --
+  Name_of_track
+  Author_nickname
+  Album
+  Genre
+  Note_value
+  (FK)User_id
+  (FK)Developer_id
+}
+
+entity "Temperature" as temp {
+  (PK)Value_id
+  --
+  Temperature
+  Humidity
+  Air_dirtness
+  Atmosphere_pressure
+  (FK)user_id
+}
+
+entity "Recomendations" as rec {
+  (PK)Recomendation_id
+  --
+  (FK)Value_id
+}
+
+entity "Final_product" as final {
+  (PK)Product_id
+  --
+  (FK)Music_id
+  (FK)User_id
+  (FK)Developer_id
+  (FK)Recomendation_id
+
+}
+
+us --- dev
+us --{ add
+us --{ temp
+dev --{ add
+temp --{rec
+rec --{ final
+add --{ final
+
+@enduml

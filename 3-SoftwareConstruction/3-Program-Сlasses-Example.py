@@ -28,7 +28,7 @@ class Tracks:
         return self.track_date
 
     def termination_change(self):
-        self.termination = input("Новий тривалість")
+        self.termination = input("Нова тривалість")
         return self.termination
 
     def album_change(self):
